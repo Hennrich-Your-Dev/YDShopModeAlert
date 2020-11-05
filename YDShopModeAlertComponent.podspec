@@ -8,15 +8,15 @@
 
 Pod::Spec.new do |spec|
 
-  spec.name         = "YDShopModeAlertComponent"
-  spec.version      = "1.0.0"
-  spec.summary      = "A short description of YDShopModeAlertComponent."
-	spec.homepage     = "https://yourdev.com.br"
-  spec.license      = "MIT"
-  spec.author             = { "Douglas Hennrich" => "douglashennrich@yourdev.com.br" }
+  spec.name         		= "YDShopModeAlertComponent"
+  spec.version      		= "1.0.1"
+  spec.summary      		= "A short description of YDShopModeAlertComponent."
+	spec.homepage     		= "https://yourdev.com.br"
+  spec.license      		= "MIT"
+  spec.author           = { "Douglas Hennrich" => "douglashennrich@yourdev.com.br" }
 
   spec.platform     		= :ios, "11.0"
-  spec.source           = { :git => "https://github.com/Hennrich-Your-Dev/YDShopModeAlert.git", :tag => spec.version }
+  spec.source           = { :git => 'https://github.com/Hennrich-Your-Dev/YDShopModeAlert.git', :tag => spec.version }
   spec.source_files     = "YDShopModeAlertComponent/**/*.{h,m,swift,xib,storyboard}"
   spec.resources        = ["YDShopModeAlertComponent/Assets.xcassets"]
   spec.resource_bundles = { "YDShopModeAlertComponent" => ["YDShopModeAlertComponent/Assets.xcassets/*"] }

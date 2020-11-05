@@ -50,6 +50,8 @@ public class YDShopModeAlertCoordinator {
 		viewController.viewModel = viewModel
 
 		navigationController.viewControllers = [viewController]
+    navigationController.modalPresentationStyle = .overCurrentContext
+    navigationController.modalTransitionStyle = .crossDissolve
 		topViewController?.present(navigationController, animated: true)
 	}
 }
