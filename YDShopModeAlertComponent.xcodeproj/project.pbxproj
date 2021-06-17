@@ -14,7 +14,6 @@
 		C1EA7F962538C0E80024DBA2 /* YDShopModeAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EA7F952538C0E80024DBA2 /* YDShopModeAlertViewController.swift */; };
 		C1EA7F992538C19E0024DBA2 /* YDShopModeAlertCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EA7F982538C19E0024DBA2 /* YDShopModeAlertCoordinator.swift */; };
 		C1EA7F9B2538C2850024DBA2 /* YDShopModeAlertViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EA7F9A2538C2850024DBA2 /* YDShopModeAlertViewModel.swift */; };
-		C1EA7F9D2538C48B0024DBA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1EA7F9C2538C48B0024DBA2 /* Assets.xcassets */; };
 		F3A4E8C7CED7370215C93FB3 /* Pods_YDShopModeAlertComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CD14449DCABDFE39865431A /* Pods_YDShopModeAlertComponent.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,7 +29,6 @@
 		C1EA7F952538C0E80024DBA2 /* YDShopModeAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDShopModeAlertViewController.swift; sourceTree = "<group>"; };
 		C1EA7F982538C19E0024DBA2 /* YDShopModeAlertCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDShopModeAlertCoordinator.swift; sourceTree = "<group>"; };
 		C1EA7F9A2538C2850024DBA2 /* YDShopModeAlertViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YDShopModeAlertViewModel.swift; sourceTree = "<group>"; };
-		C1EA7F9C2538C48B0024DBA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C970005C20641575462E46D1 /* Pods-YDShopModeAlertComponent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDShopModeAlertComponent.release.xcconfig"; path = "Target Support Files/Pods-YDShopModeAlertComponent/Pods-YDShopModeAlertComponent.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,7 +95,6 @@
 				C1EA7F922538C0850024DBA2 /* ViewModel */,
 				C1EA7F912538C07F0024DBA2 /* ViewController */,
 				C1EA7F902538C07B0024DBA2 /* View */,
-				C1EA7F9C2538C48B0024DBA2 /* Assets.xcassets */,
 				C1EA7F842538BEAE0024DBA2 /* YDShopModeAlertComponent.h */,
 				C1EA7F852538BEAE0024DBA2 /* Info.plist */,
 			);
@@ -224,7 +221,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1EA7F9D2538C48B0024DBA2 /* Assets.xcassets in Resources */,
 				C1EA7F942538C0C30024DBA2 /* YDShopModeAlertViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

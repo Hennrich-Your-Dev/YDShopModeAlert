@@ -7,43 +7,103 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		274D2AA131E28739172652F4FE37AE37 /* Pods-YDShopModeAlertComponent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE36A460F538409F6F57042BB2A6DF2 /* Pods-YDShopModeAlertComponent-dummy.m */; };
-		94BA98FBF7E1610D7AAD79490B312081 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		FDBD4898703B668B648DF3C0EECD8FD6 /* Pods-YDShopModeAlertComponent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 293D469BAAE86FCA759DB8C9A16372C8 /* Pods-YDShopModeAlertComponent-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FF79B0858147984DDAE1D0B32AD39B2 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD172495104F9FEE0D4DA8A153486F5E /* Images.swift */; };
+		60EB42169CAC8F0B72B05E71A6E9E933 /* YDB2WAssets-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 888E7F16F99ADAED651CE82154E1EA86 /* YDB2WAssets-dummy.m */; };
+		9B6764D8ACE26375F47FADF64F59B5E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A376ADB567D6D8C7D873E51E18EB06E /* Assets.xcassets */; };
+		AC9722C410D818A8482F4583EC8B19B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B0DCB7D99980DAE64CE0B2EC040EC19D /* Pods-YDShopModeAlertComponent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 293D469BAAE86FCA759DB8C9A16372C8 /* Pods-YDShopModeAlertComponent-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0AEBE51874CAB2BB80F8C6EFCC5599F /* YDB2WAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E0A017B5E3AF95B1C8F3346F302FB92 /* YDB2WAssets.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D502337A3B08B881B97177A73764AA2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DCF2EDA21C8A0982C4961F4DACFEF4AB /* YDB2WAssets-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF1E7A6424BE156760C3C3F9091A4337 /* YDB2WAssets-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF7055FE72B5B32A415BAD1CDAA19310 /* Pods-YDShopModeAlertComponent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE36A460F538409F6F57042BB2A6DF2 /* Pods-YDShopModeAlertComponent-dummy.m */; };
+		F7A40F51A3240B4EF6BC0AD439243AF1 /* YDB2WAssets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BDEB923C884839EA2840DB29A3C14350 /* YDB2WAssets.bundle */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		2A5A088CFCB95F90FB1C35010D87FE23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F82E6A867EBB3C06FB6B4956D4A87D70;
+			remoteInfo = YDB2WAssets;
+		};
+		2AEB033E263707A198EC6ACF3EA3C644 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA2ECDBDC81B33DF7639C678EF02F0A2;
+			remoteInfo = "YDB2WAssets-YDB2WAssets";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		039EACAA162E931DD48E3AA2B093D11B /* YDB2WAssets.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YDB2WAssets.framework; path = YDB2WAssets.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EFD23F34AAB57A7875B52810F6CC8B0 /* Pods-YDShopModeAlertComponent.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YDShopModeAlertComponent.modulemap"; sourceTree = "<group>"; };
 		173A1701D92B3936B4EFEC05B5234532 /* Pods-YDShopModeAlertComponent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YDShopModeAlertComponent.release.xcconfig"; sourceTree = "<group>"; };
+		1AB76DE931B2AE5B340208670070F5C0 /* YDB2WAssets.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YDB2WAssets.debug.xcconfig; sourceTree = "<group>"; };
 		293D469BAAE86FCA759DB8C9A16372C8 /* Pods-YDShopModeAlertComponent-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YDShopModeAlertComponent-umbrella.h"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3A376ADB567D6D8C7D873E51E18EB06E /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = YDB2WAssets/Assets.xcassets; sourceTree = "<group>"; };
+		4D71B82D015A0883A9A6E8B4A2B99F6A /* YDB2WAssets.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YDB2WAssets.modulemap; sourceTree = "<group>"; };
+		5E0A017B5E3AF95B1C8F3346F302FB92 /* YDB2WAssets.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YDB2WAssets.h; path = YDB2WAssets/YDB2WAssets.h; sourceTree = "<group>"; };
+		6BE91EC840F80234854611FCAD51F3A3 /* YDB2WAssets-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YDB2WAssets-prefix.pch"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7502FC3960ED811A57C7D75DA65ED56E /* Pods-YDShopModeAlertComponent-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YDShopModeAlertComponent-Info.plist"; sourceTree = "<group>"; };
 		8201BC917C62FEF1B915EC4E03F67A4F /* Pods_YDShopModeAlertComponent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YDShopModeAlertComponent.framework; path = "Pods-YDShopModeAlertComponent.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		888E7F16F99ADAED651CE82154E1EA86 /* YDB2WAssets-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YDB2WAssets-dummy.m"; sourceTree = "<group>"; };
+		923E1CD033932717632B41A7A13922CF /* YDB2WAssets-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YDB2WAssets-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FE36A460F538409F6F57042BB2A6DF2 /* Pods-YDShopModeAlertComponent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YDShopModeAlertComponent-dummy.m"; sourceTree = "<group>"; };
+		AF1E7A6424BE156760C3C3F9091A4337 /* YDB2WAssets-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YDB2WAssets-umbrella.h"; sourceTree = "<group>"; };
 		B6A1F80E952D58077216663DFAC6C4B1 /* Pods-YDShopModeAlertComponent-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YDShopModeAlertComponent-acknowledgements.plist"; sourceTree = "<group>"; };
+		BB504D277D3D848398D7B86423E48235 /* ResourceBundle-YDB2WAssets-YDB2WAssets-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-YDB2WAssets-YDB2WAssets-Info.plist"; sourceTree = "<group>"; };
+		BDEB923C884839EA2840DB29A3C14350 /* YDB2WAssets.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = YDB2WAssets.bundle; path = "YDB2WAssets-YDB2WAssets.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDBC5ACA22E8F1BAC44F11AE066CD099 /* Pods-YDShopModeAlertComponent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YDShopModeAlertComponent.debug.xcconfig"; sourceTree = "<group>"; };
+		FD172495104F9FEE0D4DA8A153486F5E /* Images.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		FE04E6D07B68609B1F0A703844CDF914 /* YDB2WAssets.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YDB2WAssets.release.xcconfig; sourceTree = "<group>"; };
 		FEB1EA92AB740AEAD005492D68D14D29 /* Pods-YDShopModeAlertComponent-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YDShopModeAlertComponent-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		15305AE1C0DD63BB43731C270A15D8F1 /* Frameworks */ = {
+		72B9CC9A22BCF3A579E65CDB5BFB4CAA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94BA98FBF7E1610D7AAD79490B312081 /* Foundation.framework in Frameworks */,
+				D502337A3B08B881B97177A73764AA2E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90DE5CBE5B6D7EC529611E18ACF50FF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9722C410D818A8482F4583EC8B19B5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8D4EE17DE5BD1936D6D5A8932EDEBB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2EDBA2E1ED5D7DE35BF20B221FC4818D /* Products */ = {
+		044693F96A916657D79BCADA222A3C9E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8201BC917C62FEF1B915EC4E03F67A4F /* Pods_YDShopModeAlertComponent.framework */,
+				F8EBC9BB5A6F36611048FDE456874432 /* YDB2WAssets */,
 			);
-			name = Products;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		75C59027C1177D7109F9A04201417D69 /* Targets Support Files */ = {
@@ -54,12 +114,13 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+		89CBF0C067D83CF20FFFE4E6E4817987 /* ImagesClasses */ = {
 			isa = PBXGroup;
 			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				FD172495104F9FEE0D4DA8A153486F5E /* Images.swift */,
 			);
-			name = iOS;
+			name = ImagesClasses;
+			path = YDB2WAssets/ImagesClasses;
 			sourceTree = "<group>";
 		};
 		C641674DFDF6B76AEB11BE77F3DFADB7 /* Pods-YDShopModeAlertComponent */ = {
@@ -83,7 +144,8 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				2EDBA2E1ED5D7DE35BF20B221FC4818D /* Products */,
+				044693F96A916657D79BCADA222A3C9E /* Pods */,
+				E28AD36AF704E13758E61AA954E19874 /* Products */,
 				75C59027C1177D7109F9A04201417D69 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -91,41 +153,125 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8793C60DBC092C055F0787D5440535D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB504D277D3D848398D7B86423E48235 /* ResourceBundle-YDB2WAssets-YDB2WAssets-Info.plist */,
+				4D71B82D015A0883A9A6E8B4A2B99F6A /* YDB2WAssets.modulemap */,
+				888E7F16F99ADAED651CE82154E1EA86 /* YDB2WAssets-dummy.m */,
+				923E1CD033932717632B41A7A13922CF /* YDB2WAssets-Info.plist */,
+				6BE91EC840F80234854611FCAD51F3A3 /* YDB2WAssets-prefix.pch */,
+				AF1E7A6424BE156760C3C3F9091A4337 /* YDB2WAssets-umbrella.h */,
+				1AB76DE931B2AE5B340208670070F5C0 /* YDB2WAssets.debug.xcconfig */,
+				FE04E6D07B68609B1F0A703844CDF914 /* YDB2WAssets.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YDB2WAssets";
+			sourceTree = "<group>";
+		};
+		E28AD36AF704E13758E61AA954E19874 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8201BC917C62FEF1B915EC4E03F67A4F /* Pods_YDShopModeAlertComponent.framework */,
+				BDEB923C884839EA2840DB29A3C14350 /* YDB2WAssets.bundle */,
+				039EACAA162E931DD48E3AA2B093D11B /* YDB2WAssets.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8EBC9BB5A6F36611048FDE456874432 /* YDB2WAssets */ = {
+			isa = PBXGroup;
+			children = (
+				3A376ADB567D6D8C7D873E51E18EB06E /* Assets.xcassets */,
+				5E0A017B5E3AF95B1C8F3346F302FB92 /* YDB2WAssets.h */,
+				89CBF0C067D83CF20FFFE4E6E4817987 /* ImagesClasses */,
+				D8793C60DBC092C055F0787D5440535D /* Support Files */,
+			);
+			name = YDB2WAssets;
+			path = YDB2WAssets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		8DC108647616428ADE6059118CEAFE00 /* Headers */ = {
+		3DA4BC8F6BCD99C6F32FB1011000A310 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDBD4898703B668B648DF3C0EECD8FD6 /* Pods-YDShopModeAlertComponent-umbrella.h in Headers */,
+				B0DCB7D99980DAE64CE0B2EC040EC19D /* Pods-YDShopModeAlertComponent-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7AB151EA381ACD9801A573152B29308 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCF2EDA21C8A0982C4961F4DACFEF4AB /* YDB2WAssets-umbrella.h in Headers */,
+				C0AEBE51874CAB2BB80F8C6EFCC5599F /* YDB2WAssets.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		D0A642EC1ACBC0102C57A804B20CAEF8 /* Pods-YDShopModeAlertComponent */ = {
+		AA2ECDBDC81B33DF7639C678EF02F0A2 /* YDB2WAssets-YDB2WAssets */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3B593DD9EA90FBD1B79712C13DE14110 /* Build configuration list for PBXNativeTarget "Pods-YDShopModeAlertComponent" */;
+			buildConfigurationList = A15F7E88D9F63428404C0CCD4B762AD4 /* Build configuration list for PBXNativeTarget "YDB2WAssets-YDB2WAssets" */;
 			buildPhases = (
-				8DC108647616428ADE6059118CEAFE00 /* Headers */,
-				08E462A9ACD71D4F3D0C998E881C6F19 /* Sources */,
-				15305AE1C0DD63BB43731C270A15D8F1 /* Frameworks */,
-				FAED60CD7295820A4472FF8E157A8EF9 /* Resources */,
+				A93C2436C6322C19C0A08187114EC2D5 /* Sources */,
+				A8D4EE17DE5BD1936D6D5A8932EDEBB9 /* Frameworks */,
+				9FC12E97F8B160F8A832FF3A1D0D00FE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = "YDB2WAssets-YDB2WAssets";
+			productName = "YDB2WAssets-YDB2WAssets";
+			productReference = BDEB923C884839EA2840DB29A3C14350 /* YDB2WAssets.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		D0A642EC1ACBC0102C57A804B20CAEF8 /* Pods-YDShopModeAlertComponent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A866502D01DF08660A97767C260042A /* Build configuration list for PBXNativeTarget "Pods-YDShopModeAlertComponent" */;
+			buildPhases = (
+				3DA4BC8F6BCD99C6F32FB1011000A310 /* Headers */,
+				76DB027793FD2DB5265B9731D6055AC5 /* Sources */,
+				72B9CC9A22BCF3A579E65CDB5BFB4CAA /* Frameworks */,
+				1DFE115ECCDB917EA959B226C09839BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF2E36E9249E4480C5AE260260F8BFF3 /* PBXTargetDependency */,
+			);
 			name = "Pods-YDShopModeAlertComponent";
 			productName = "Pods-YDShopModeAlertComponent";
 			productReference = 8201BC917C62FEF1B915EC4E03F67A4F /* Pods_YDShopModeAlertComponent.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F82E6A867EBB3C06FB6B4956D4A87D70 /* YDB2WAssets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B50A9404F87A0ECE056320ADF617AB8F /* Build configuration list for PBXNativeTarget "YDB2WAssets" */;
+			buildPhases = (
+				F7AB151EA381ACD9801A573152B29308 /* Headers */,
+				1BB870AB8FD2B7FBD22279B0AACA5D79 /* Sources */,
+				90DE5CBE5B6D7EC529611E18ACF50FF5 /* Frameworks */,
+				668F99105325D93F287F0E5C6140F7BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A40B55F0DBC1C2B8868723149ACF69A3 /* PBXTargetDependency */,
+			);
+			name = YDB2WAssets;
+			productName = YDB2WAssets;
+			productReference = 039EACAA162E931DD48E3AA2B093D11B /* YDB2WAssets.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -146,17 +292,35 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 2EDBA2E1ED5D7DE35BF20B221FC4818D /* Products */;
+			productRefGroup = E28AD36AF704E13758E61AA954E19874 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				D0A642EC1ACBC0102C57A804B20CAEF8 /* Pods-YDShopModeAlertComponent */,
+				F82E6A867EBB3C06FB6B4956D4A87D70 /* YDB2WAssets */,
+				AA2ECDBDC81B33DF7639C678EF02F0A2 /* YDB2WAssets-YDB2WAssets */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FAED60CD7295820A4472FF8E157A8EF9 /* Resources */ = {
+		1DFE115ECCDB917EA959B226C09839BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		668F99105325D93F287F0E5C6140F7BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6764D8ACE26375F47FADF64F59B5E4 /* Assets.xcassets in Resources */,
+				F7A40F51A3240B4EF6BC0AD439243AF1 /* YDB2WAssets.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FC12E97F8B160F8A832FF3A1D0D00FE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -166,21 +330,156 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		08E462A9ACD71D4F3D0C998E881C6F19 /* Sources */ = {
+		1BB870AB8FD2B7FBD22279B0AACA5D79 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				274D2AA131E28739172652F4FE37AE37 /* Pods-YDShopModeAlertComponent-dummy.m in Sources */,
+				1FF79B0858147984DDAE1D0B32AD39B2 /* Images.swift in Sources */,
+				60EB42169CAC8F0B72B05E71A6E9E933 /* YDB2WAssets-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76DB027793FD2DB5265B9731D6055AC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7055FE72B5B32A415BAD1CDAA19310 /* Pods-YDShopModeAlertComponent-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A93C2436C6322C19C0A08187114EC2D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		A40B55F0DBC1C2B8868723149ACF69A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "YDB2WAssets-YDB2WAssets";
+			target = AA2ECDBDC81B33DF7639C678EF02F0A2 /* YDB2WAssets-YDB2WAssets */;
+			targetProxy = 2AEB033E263707A198EC6ACF3EA3C644 /* PBXContainerItemProxy */;
+		};
+		EF2E36E9249E4480C5AE260260F8BFF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YDB2WAssets;
+			target = F82E6A867EBB3C06FB6B4956D4A87D70 /* YDB2WAssets */;
+			targetProxy = 2A5A088CFCB95F90FB1C35010D87FE23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		257497152829C177993B5EC99C1D227A /* Release */ = {
+		110330C3A507FE815BEBEAF610B386AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AB76DE931B2AE5B340208670070F5C0 /* YDB2WAssets.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/YDB2WAssets";
+				IBSC_MODULE = YDB2WAssets;
+				INFOPLIST_FILE = "Target Support Files/YDB2WAssets/ResourceBundle-YDB2WAssets-YDB2WAssets-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = YDB2WAssets;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		50D72755EA8B3CD693395620E33C867B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE04E6D07B68609B1F0A703844CDF914 /* YDB2WAssets.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YDB2WAssets/YDB2WAssets-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YDB2WAssets/YDB2WAssets-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/YDB2WAssets/YDB2WAssets.modulemap";
+				PRODUCT_MODULE_NAME = YDB2WAssets;
+				PRODUCT_NAME = YDB2WAssets;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		615F246C015E390A60DD209089E430BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AB76DE931B2AE5B340208670070F5C0 /* YDB2WAssets.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YDB2WAssets/YDB2WAssets-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YDB2WAssets/YDB2WAssets-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/YDB2WAssets/YDB2WAssets.modulemap";
+				PRODUCT_MODULE_NAME = YDB2WAssets;
+				PRODUCT_NAME = YDB2WAssets;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8285F95A8646EF029D5AE8AB3677033D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE04E6D07B68609B1F0A703844CDF914 /* YDB2WAssets.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/YDB2WAssets";
+				IBSC_MODULE = YDB2WAssets;
+				INFOPLIST_FILE = "Target Support Files/YDB2WAssets/ResourceBundle-YDB2WAssets-YDB2WAssets-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = YDB2WAssets;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -203,6 +502,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -237,87 +537,11 @@
 			};
 			name = Release;
 		};
-		7A916F81F414A0C3E985A1A798D85A64 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CDBC5ACA22E8F1BAC44F11AE066CD099 /* Pods-YDShopModeAlertComponent.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-YDShopModeAlertComponent/Pods-YDShopModeAlertComponent-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-YDShopModeAlertComponent/Pods-YDShopModeAlertComponent.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8C64F12C84333C8F1A04A47B33B41E9B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 173A1701D92B3936B4EFEC05B5234532 /* Pods-YDShopModeAlertComponent.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-YDShopModeAlertComponent/Pods-YDShopModeAlertComponent-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-YDShopModeAlertComponent/Pods-YDShopModeAlertComponent.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
+		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -340,6 +564,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -378,23 +603,116 @@
 			};
 			name = Debug;
 		};
+		D8D4030790B243900B424921A7ED1A18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 173A1701D92B3936B4EFEC05B5234532 /* Pods-YDShopModeAlertComponent.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YDShopModeAlertComponent/Pods-YDShopModeAlertComponent-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YDShopModeAlertComponent/Pods-YDShopModeAlertComponent.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EA804D104090D95FFA8B212E63C54BA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDBC5ACA22E8F1BAC44F11AE066CD099 /* Pods-YDShopModeAlertComponent.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YDShopModeAlertComponent/Pods-YDShopModeAlertComponent-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YDShopModeAlertComponent/Pods-YDShopModeAlertComponent.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3B593DD9EA90FBD1B79712C13DE14110 /* Build configuration list for PBXNativeTarget "Pods-YDShopModeAlertComponent" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7A916F81F414A0C3E985A1A798D85A64 /* Debug */,
-				8C64F12C84333C8F1A04A47B33B41E9B /* Release */,
+				B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */,
+				903A0004D3E6651EFD5D2E16214D101B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+		8A866502D01DF08660A97767C260042A /* Build configuration list for PBXNativeTarget "Pods-YDShopModeAlertComponent" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DD8F832993327D1DD8046C3CBCBD97CD /* Debug */,
-				257497152829C177993B5EC99C1D227A /* Release */,
+				EA804D104090D95FFA8B212E63C54BA1 /* Debug */,
+				D8D4030790B243900B424921A7ED1A18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A15F7E88D9F63428404C0CCD4B762AD4 /* Build configuration list for PBXNativeTarget "YDB2WAssets-YDB2WAssets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				110330C3A507FE815BEBEAF610B386AC /* Debug */,
+				8285F95A8646EF029D5AE8AB3677033D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B50A9404F87A0ECE056320ADF617AB8F /* Build configuration list for PBXNativeTarget "YDB2WAssets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				615F246C015E390A60DD209089E430BD /* Debug */,
+				50D72755EA8B3CD693395620E33C867B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

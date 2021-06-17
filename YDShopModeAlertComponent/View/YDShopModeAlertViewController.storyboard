@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -28,7 +28,7 @@
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ugf-Xu-8OG">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ugf-Xu-8OG">
                                         <rect key="frame" x="134" y="378.5" width="86" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="86" id="a6x-o4-gfl"/>
@@ -52,14 +52,14 @@ da loja física dentro do aplicativo.</string>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="storeIcon" translatesAutoresizingMaskIntoConstraints="NO" id="dc1-VN-sBN">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dc1-VN-sBN">
                                         <rect key="frame" x="91" y="24" width="200" height="144"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="144" id="Nly-cP-aPy"/>
                                             <constraint firstAttribute="width" constant="200" id="T1e-yh-G68"/>
                                         </constraints>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kdd-rb-7TM">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kdd-rb-7TM">
                                         <rect key="frame" x="245" y="378.5" width="113" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="3bu-vf-fJi"/>
@@ -90,6 +90,7 @@ da loja física dentro do aplicativo.</string>
                                 </constraints>
                             </view>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="hyh-Vp-bwt"/>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="AkX-bW-kEe" firstAttribute="centerX" secondItem="Lc8-Jd-JCF" secondAttribute="centerX" id="FUa-2K-f8a"/>
@@ -97,9 +98,9 @@ da loja física dentro do aplicativo.</string>
                             <constraint firstItem="hyh-Vp-bwt" firstAttribute="trailing" secondItem="AkX-bW-kEe" secondAttribute="trailing" constant="16" id="bLH-fR-bdH"/>
                             <constraint firstItem="AkX-bW-kEe" firstAttribute="centerY" secondItem="Lc8-Jd-JCF" secondAttribute="centerY" id="of2-5d-0gb"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="hyh-Vp-bwt"/>
                     </view>
                     <connections>
+                        <outlet property="iconImageView" destination="dc1-VN-sBN" id="iRV-Sn-Gxo"/>
                         <outlet property="letMeInButton" destination="Kdd-rb-7TM" id="Vte-kg-goq"/>
                         <outlet property="redContainer" destination="AkX-bW-kEe" id="Xsp-Iy-uSH"/>
                     </connections>
@@ -109,7 +110,4 @@ da loja física dentro do aplicativo.</string>
             <point key="canvasLocation" x="15.942028985507248" y="110.49107142857143"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="storeIcon" width="176" height="92"/>
-    </resources>
 </document>

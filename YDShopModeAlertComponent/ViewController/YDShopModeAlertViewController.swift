@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import YDB2WAssets
 
 class YDShopModeAlertViewController: UIViewController {
 
@@ -20,7 +21,14 @@ class YDShopModeAlertViewController: UIViewController {
 			redContainer.layer.applyShadow()
 		}
 	}
-	@IBOutlet var letMeInButton: UIButton! {
+
+  @IBOutlet weak var iconImageView: UIImageView! {
+    didSet {
+      iconImageView.image = Images.storeWithPin
+    }
+  }
+
+  @IBOutlet var letMeInButton: UIButton! {
 		didSet {
 			letMeInButton.layer.cornerRadius = 4
 			letMeInButton.layer.borderWidth = 1.5
