@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         		= "YDShopModeAlertComponent"
-  spec.version      		= "1.3.0"
+  spec.version      		= "1.4.0"
   spec.summary      		= "A short description of YDShopModeAlertComponent."
 	spec.homepage     		= "https://yourdev.com.br"
   spec.license      		= "MIT"
@@ -19,5 +19,5 @@ Pod::Spec.new do |spec|
   spec.source_files     = "YDShopModeAlertComponent/**/*.{h,m,swift,xib,storyboard}"
   spec.swift_version    = "5.0"
 
-  spec.dependency "YDB2WAssets", "~> 1.3.0"
+  spec.dependency "YDB2WAssets", "~> 1.4.0"
 end

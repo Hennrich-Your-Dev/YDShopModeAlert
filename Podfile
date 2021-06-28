@@ -12,6 +12,6 @@ target 'YDShopModeAlertComponent' do
   use_frameworks!
 
   # Pods for YDShopModeAlertComponent
-  pod "YDB2WAssets", "~> 1.3.0"
+  pod "YDB2WAssets", "~> 1.4.0"
 
 end
